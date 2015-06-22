@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // simple project to store reusable basic gradient class
+        let background = Gradient()
+        background.addAppBackgroundGradient(self.view.bounds, currentView:view )
     }
 
     override func didReceiveMemoryWarning() {
