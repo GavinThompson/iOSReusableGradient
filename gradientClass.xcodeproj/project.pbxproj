@@ -13,6 +13,7 @@
 		63CBD8121B3852A6005E36C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CBD8111B3852A6005E36C4 /* Images.xcassets */; };
 		63CBD8151B3852A6005E36C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CBD8131B3852A6005E36C4 /* LaunchScreen.xib */; };
 		63CBD8211B3852A6005E36C4 /* gradientClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CBD8201B3852A6005E36C4 /* gradientClassTests.swift */; };
+		63CBD82E1B385341005E36C4 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CBD82D1B385341005E36C4 /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		63CBD81A1B3852A6005E36C4 /* gradientClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradientClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CBD81F1B3852A6005E36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CBD8201B3852A6005E36C4 /* gradientClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientClassTests.swift; sourceTree = "<group>"; };
+		63CBD82D1B385341005E36C4 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				63CBD80A1B3852A6005E36C4 /* AppDelegate.swift */,
+				63CBD82C1B3852F0005E36C4 /* Models */,
 				63CBD80C1B3852A6005E36C4 /* ViewController.swift */,
 				63CBD80E1B3852A6005E36C4 /* Main.storyboard */,
 				63CBD8111B3852A6005E36C4 /* Images.xcassets */,
@@ -110,6 +113,14 @@
 				63CBD81F1B3852A6005E36C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63CBD82C1B3852F0005E36C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63CBD82D1B385341005E36C4 /* Gradient.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				63CBD80D1B3852A6005E36C4 /* ViewController.swift in Sources */,
 				63CBD80B1B3852A6005E36C4 /* AppDelegate.swift in Sources */,
+				63CBD82E1B385341005E36C4 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
